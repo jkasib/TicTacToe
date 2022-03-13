@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+
+nav {
+    width: 100vw;
+    height: 13vh;
+    background-color: purple;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 7rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.gameContainer {
+    display: grid;
+    place-items: center;
+    grid-auto-flow: column;
+    width: 100vw;
+    height: 87vh;
+}
+
+.others {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 5rem;
+    border: 1px solid purple;
+    padding: 4rem 3rem;
+}
+
+.others h3 {
+    font-size: 4rem;
+}
+
+.others p {
+    font-size: 2rem;
+}
+
+.others .reset {
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    border-radius: 25px;
+    border: 1px solid purple;
+    cursor: pointer;
+    background: #ab33ab;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.others .reset:hover {
+    background: transparent;
+    color: purple;
+}
+
+.gameContainer {
+    display: grid;
+    place-items: center;
+    grid-auto-flow: column;
+    width: 100vw;
+    height: 87vh;
+}
+
+.others {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 5rem;
+    border: 1px solid purple;
+    padding: 4rem 3rem;
+}
+
+.others h3 {
+    font-size: 4rem;
+}
+
+.others p {
+    font-size: 2rem;
+}
+
+.others .reset {
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    border-radius: 25px;
+    border: 1px solid purple;
+    cursor: pointer;
+    background: #ab33ab;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.others .reset:hover {
+    background: transparent;
+    color: purple;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(3, 10vw);
+}
+
+.box {
+    border: 1px solid black;
+    display: grid;
+    place-items: center;
+    font-size: 10rem;
+    cursor: pointer;
+}
+
+.box:hover {
+    background: #ec7eff;
+}
+
+span.boxtext {
+    color: purple;
+}
+
+.imgbox img {
+    width: 0px;
+    transition: 0.5s;
+}
+
+.imgbox {
+    position: absolute;
+    z-index: -111111;
+    top: 21rem;
+}
+
+
+.bt-0 {
+    border-top: 0;
+}
+.br-0 {
+    border-right: 0;
+}
+.bb-0 {
+    border-bottom: 0;
+}
+.bl-0 {
+    border-left: 0;
+}
+
+.line {
+    position: absolute;
+    width: 30vw;
+    height: 1vw;
+    background: purple;
+    border-radius: 3rem;
+    transition: width 0.5s ease-in-out;
+    transform: translate(0rem, -100rem);
+}
